@@ -2,9 +2,11 @@
   "name": "vue-web-form",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://jeromepalayoor.github.io/vue-web-form",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "core-js": "^3.8.3",
@@ -12,6 +14,7 @@
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~5.0.0",
-    "@vue/cli-service": "~5.0.0"
+    "@vue/cli-service": "~5.0.0",
+    "gh-pages": "^5.0.0"
   }
 }
